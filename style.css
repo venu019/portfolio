@@ -1,0 +1,246 @@
+body {
+    font-family: 'AmstelvarAlpha';
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color:#004526;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: static;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 10px black;
+}
+
+header h3 {
+    margin: 0;
+    font-family:'AmstelvarAlpha';
+    font-style: oblique 23deg;
+    font-size: 30px;
+    color: #f4f4f4;
+    /* left: 5%; */
+    /* top: 28%; */
+    position: absolute;
+    z-index: 1000;
+    
+}
+
+nav {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+
+nav button {
+    background-color:#004526;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    
+}
+
+nav button:hover {
+    background-color:#eae0cc;
+    color:#004526;
+    text-decoration: underline;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 50px;
+    text-align: center;
+    background-color: #fffefe;
+}
+
+.name {
+    height: 100%; 
+    max-width: 50%; 
+    text-align: left; 
+    box-sizing: border-box; 
+}
+
+.name p {
+    font-size: 1.5em;
+    font-style: oblique;
+    align-items: center; 
+    margin-left: 10px; 
+    color: #004526;
+}
+
+.name h2 {
+    color: #004526;
+    font-size: 3em;
+    font-style: oblique;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.image img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px#004526;
+    
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#aboutpage{
+    
+    background-color: #fffefe;
+    font-family:'AmstelvarAlpha';
+    color: #004526;
+    font-size: 1em;
+    font-style: oblique;
+    align-content: center;
+    height: 700px;
+}
+ #para1{
+    width: 70%;
+    margin: 20px auto;
+ } 
+
+
+#homepage p,
+#aboutpage p,
+#skillspage p,
+#projectspage p,
+#contactpage p {
+    margin: 20px 0;
+}
+
+.collegesection{
+    background-color:#eae0cc ;
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.college{
+    width: 700px;
+    height: 100px;
+    background-color:#eae0cc ;
+    margin-left: 27%;
+    margin-top: 10px;
+}
+.college:hover{
+    width: 700px;
+    background-color:rgb(255, 255, 255) ;
+    color: #004526;
+    margin-left: 27%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #004526;
+}
+
+#skillspage div {
+    margin: 20px 0;
+}
+#skillspage h3{
+    color: #004526;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:'AmstelvarAlpha';
+    font-size: 1.5em;
+    font-style: oblique;
+}
+#skillspage marquee {
+    display: block;
+    padding: 10px 0;
+    background-color: #f7f7f8;
+    color: #004526;
+    border-radius: 5px;
+}
+
+#projectspage div {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#projectspage h3 {
+    color: #004526;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:'AmstelvarAlpha';
+    font-size: 1.5em;
+    font-style: oblique;
+}
+#projectspage h2 {
+    color: #004526;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:'AmstelvarAlpha';
+    font-size: 1.5em;
+    font-style: oblique;
+}
+
+
+#projectspage article {
+    font-family:'AmstelvarAlpha';
+    color: #004526;
+    font-size: 1em;
+    font-style: oblique;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#contactpage{
+    height: 200px;
+}
+#contactpage h2 {
+    font-family:'AmstelvarAlpha';
+    color: #004526;
+    font-size: 1em;
+    font-style: oblique;
+}
+
+.social-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white; /* Background color of the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: #004526; /* Icon color */
+    text-decoration: none;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #004526;
+    color: #f4f4f4;}
+
+footer {
+    background-color: #004526;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
